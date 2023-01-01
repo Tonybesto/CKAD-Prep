@@ -15,7 +15,7 @@ db-config          2      9s
 
 `kubectl run sqlsvr --image nginx --dry-run=client -o yaml > q2.yaml`
 
-# Check the  q2.yaml file to locate the configmap 
+# Check the  `q2.yaml` file to locate the configmap 
 
 # Exec into the pod and display the create environment variables.
 
